@@ -144,18 +144,18 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis similique odit eos architecto consequatur fuga animi veritatis, dolores est sapiente!</p>
         </div>
         <div class="contacts-form">
-            <form action="">
+            <form name="contacts" netlify>
                 <label class="input-label" for="">Full Name</label>
-                <input class="input-field" type="text" placeholder="Name Surname">
+                <input class="input-field" type="text" name="fullname" placeholder="Name Surname" required>
 
                 <label class="input-label" for="">E-mail</label>
-                <input class="input-field" type="email" placeholder="example@mail.com">
+                <input class="input-field" type="email" name="email" placeholder="example@mail.com" required>
 
                 <label class="input-label" for="">Subject</label>
-                <input class="input-field" type="text" placeholder="example subject">
+                <input class="input-field" type="text" name="subject" placeholder="example subject" required>
 
                 <label class="input-label" for="">Message <span>Optional</span></label>
-                <textarea class="input-textarea" placeholder="Write here"></textarea>
+                <textarea class="input-textarea" name="massage" placeholder="Write here"></textarea>
             
             <button class="button">Send</button>
             </form>
